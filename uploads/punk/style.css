@@ -1,0 +1,84 @@
+body{
+    background-color: black;
+    background-image: url("http://cdn.wonderfulengineering.com/wp-content/uploads/2014/07/black-and-white-wallpaper-1.png")
+  }
+  
+  .post_container {
+    border-color: darkgrey;
+    border-style: none;
+    margin: 30px;
+    height: 650px;
+    width: 500px;
+  }
+  
+  .post_title {
+    position: relative;
+    z-index: 1;
+    color: white;
+    margin: 20px;
+    background-color: #A80400;
+    display: inline-block;
+    padding: 15px;
+    font-family: "Nova Flat";
+    font-size: 18px;
+  }
+  
+  .post_title_fg {
+    position: absolute;
+    z-index: 1;
+    margin-left: 5px;
+    margin-bottom: 7px;
+    background-color: #460403;
+    display: inline-block;
+    padding: inherit;
+    font-size: 15px;
+    border-color: #A80400;
+    border-style: solid
+  }
+  
+  .post_content_container {
+    text-align: center;
+    font-family: "Nova Flat";
+    position: absolute;
+    color: white;
+    margin: 5px;
+    padding: 20px;
+    padding-top: 40px;
+    --background-color: #360100;
+    background-color: rgba(54,1,0, .6);
+    margin-top: -40px;
+    width: 350px;
+    --width: 460px;
+    display: default;
+    height: 500px;
+    border-left-width: 5px;
+    border-top-width: 10px;
+    border-color: #A80400;
+    border-left-style: solid;
+    border-top-style: solid;
+  }
+  
+  .post_text_container {
+    position: relative;
+    z-index: 3;
+    margin-top: 30px;
+    background-color: #2A0100;
+    width: 430px;
+    border-style: solid;
+    border-color: #A80400;
+    padding: 10px;
+  }
+  
+  .post_inner_title {
+    font-family: "Nova Flat";
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .post_text {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
